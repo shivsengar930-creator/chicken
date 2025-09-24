@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicken Delight Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #e63946;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #ffb703;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e63946;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background: url('https://i.ibb.co/PGDkh3v/chicken-bg.jpg') no-repeat center/cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chicken Delight Shop</h1>
+    <p>Fresh • Crispy • Delicious</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to the Best Chicken in Town!</h1>
+    <p>Hot & Spicy • Finger Lickin' Good</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="item">
+        <a href="https://www.zomato.com/ncr/kfc-1-connaught-place-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRnJpZWQgQ2hpY2tlbiIsImRpc2hfaWRzIjpbIjQ5MDkxIl0sImN1aXNpbmVfaWRzIjpbXX19" target="main">
+        <img src="https://www.allrecipes.com/thmb/WSSoRAz2IygrMPkiJxHPbt9gqMg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8635-southern-fried-chicken-ddmfs_4x3-90736ab31a7a4bb59eb04e2380ccebe7.jpg" alt="Fried Chicken"></a>
+        <h3>Fried Chicken</h3>
+        <p>Golden & Crispy - ₹150</p>
+      </div>
+      <div class="item">
+        <a href="https://www.zomato.com/ncr/burger-king-connaught-place-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gQ2hpY2tlbiBCdXJnZXIiLCJkaXNoX2lkcyI6WyI2MDEyNiJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D" target="main">
+        <img src="https://www.licious.in/blog/wp-content/uploads/2022/08/shutterstock_574607542.jpg" alt="Chicken Burger"></a>
+        <h3>Chicken Burger</h3>
+        <p>Juicy & Tasty - ₹120</p>
+      </div>
+      <div class="item">
+        <a href="https://www.zomato.com/ncr/blue-water-grille-1-rajinder-nagar-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gR3JpbGxlZCBDaGlja2VuIiwiZGlzaF9pZHMiOlsiMzYyODUiXSwiY3Vpc2luZV9pZHMiOltdfX0%3D/" target="main">        
+          <img src="https://www.spiceindiaonline.com/wp-content/uploads/2021/05/Tandoori-Chicken-20-500x400.jpg" alt="Grilled Chicken">
+          
+          
+
+        <h3>Grilled Chicken</h3>
+        <p>Smoky & Spicy - ₹200</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      At Chicken Delight Shop, we serve the crispiest fried chicken, juicy burgers, 
+      and smoky grilled chicken made with love. We believe in quality, freshness, 
+      and flavor in every bite!
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Location: <a href="https://www.google.com/maps/place/Pul+Pehladpur,+New+Delhi/@28.4998463,77.2899225,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIC-vqjVPw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAC9h4npQiKyxPdWXf6W6gWzOdGNCfNyJzxsWabiY3L2QpwyKZ6jD964zLwqmua5BXj9c-OEv7V_ipVAuU8lhSk0MSnzP0MvrLChuJZ6Di44LhJUD3UgWNs5TVdg-3e-qF8Hd71S9R_oT%3Dw86-h114-k-no!7i2992!8i4000!4m7!3m6!1s0x390ce6d6cfd1084d:0xb73606f5b4e78e9b!8m2!3d28.4998463!4d77.2899225!10e5!16zL20vMGY2MWIw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"d-667 pul pehlad pur,Food City>d-667 pul pehlad pur,Food City</a></p>
+    <p>📞 Contact: <a href="tel:+91 8630064860">8630-06-4860</a></p>
+    <p>📧 Email: <a href="https://www.chickendelight.com">https://www.chickendelight.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Chicken Delight Shop | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
